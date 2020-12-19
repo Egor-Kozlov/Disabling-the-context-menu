@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="main.js" defer></script>
+  <style>
+    body {
+      height: 98vh;
+      display: flex;
+      align-items: center;
+      background: rgb(199, 223, 243);
+    }
+
+    #main-div {
+      width: 800px;
+      height: 800px;
+      margin: 0 auto;
+      background: teal;
+      border: 4px groove indigo;
+    }
+
+    #popup-div {
+      width: 90px;
+      height: 150px;
+      background: coral;
+      border: 4px outset crimson;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      visibility: hidden;
+    }
+
+    .menu {
+      width: 100%;
+      height: 15%;
+      background: khaki;
+      margin-bottom: 3px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main-div">
+    <div id="popup-div">
+      <div class="menu">Menu 1</div>
+      <div class="menu">Menu 2</div>
+      <div class="menu">Menu 3</div>
+      <div class="menu">Menu 4</div>
+      <div class="menu">Menu 5</div>
+      <div class="menu">Menu 6</div>
+    </div>
+  </div>
+</body>
+
+</html>
